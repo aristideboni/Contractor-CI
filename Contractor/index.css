@@ -1,6 +1,6 @@
 .image-3-icon4 {
-  height: 62px;
-  width: 52px;
+  height: 30px;
+  width: 30px;
   position: relative;
   object-fit: cover;
 }
@@ -168,17 +168,17 @@
   gap: var(--gap-xl);
 }
 .frame-child12 {
-  height: 738px;
-  width: 16.5em;
+  /*height: 738px;*/
+  width: 100%;
   position: absolute;
-  margin: 0 !important;
-  /* top: -510px; */
+  /* margin: 0 !important;
+  top: -510px; */
   right: 0px;
   object-fit: cover;
   z-index: 1;
-  padding-right: 30px;
-  padding-left: 30px;
-  border-radius: 65px;
+  padding: 0 30px;
+  /*padding-left: 30px;
+  border-radius: 65px;*/
 }
 .b6,
 .projets-termins2 {

@@ -13,41 +13,75 @@
     />
   </head>
   <body>
-    <div class="landing-page">
-      <header class="feature-box">
-        <div class="control-panel">
-          <img
-            class="image-3-icon4"
-            loading="lazy"
-            alt=""
-            src="./public/image-3@2x.png"
-          />
 
-          <b class="contractor-ci2">
-            <span>Contractor</span>
-            <span class="span2"> </span>
-            <span class="ci2">CI</span>
-          </b>
-        </div>
-        <div class="accueil-container">
-          <b class="accueil6">Accueil</b>
-          <div class="propos4">À propos</div>
-          <div class="services4">Services</div>
-          <div class="projets4">Projets</div>
-          <div class="quipes4">Équipes</div>
-          <button class="nous-contacter-frame">
-            <b class="nous-contacter6">Nous contacter</b>
-          </button>
-        </div>
-      </header>
+  <nav class='mb-1 flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[80px] tracking-wide relative z-50'>
+    <div class='flex flex-wrap items-center gap-5 w-full'>
+      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img class="h-8" loading="lazy" alt="Contractor Logo" src="./public/image-3@2x.png" />
+        <span class="text-[#2A8181] font-bold">Contractor <b class="text-[#4B4182]">CI</b></span>
+      </a>
+
+      <div id="collapseMenu"
+           class='max-lg:hidden lg:!flex lg:ml-auto max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
+        <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+                    d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                    data-original="#000000"></path>
+            <path
+                    d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                    data-original="#000000"></path>
+          </svg>
+        </button>
+
+        <ul
+                class='lg:flex gap-4 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-40' />
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='javascript:void(0)'
+               class='hover:text-[#4B4182] text-[#2A8181] font-bold block text-[15px]'>Accueil</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+                                                          class='hover:text-[#2A8181] text-[#333] font-regular block text-[15px]'>À propos</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+                                                          class='hover:text-[#2A8181] text-[#333] font-regular block text-[15px]'>Services</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+                                                          class='hover:text-[#2A8181] text-[#333] font-regular block text-[15px]'>Projets</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
+                                                          class='hover:text-[#2A8181] text-[#333] font-regular block text-[15px]'>Équipes</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class='flex items-center max-lg:ml-auto space-x-6'>
+        <button class="bg-[#2A8181] hover:bg-[#459c9c]/90 text-white font-bold py-3 px-6 rounded-full">
+          Nous contacter
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!--<div class="md:container md:mx-auto">
+    test
+  </div>-->
+
+
+  <div class="container mx-auto px-1">
+
       <div class="construire-rnover-innover-frame">
         <div>
           <h1 class="construire-rnover-innover-container2">
-            <p class="construire2">Construire.</p>
-            <p class="rnover2">Rénover.</p>
-            <p class="innover2">Innover.</p>
+            <p class="construire2 text-[#2A8181]">Construire.</p>
+            <p class="rnover2 text-[#2A8181]">Rénover.</p>
+            <p class="innover2 text-[#2A8181]">Innover.</p>
           </h1>
-  
+
         </div>
         <div>
           <img
@@ -71,7 +105,7 @@
               <div class="frame-parent34">
                 <div class="frame-parent35">
                   <div class="frame-wrapper7">
-                    <div class="frame-parent36">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8 flex flex-row relative">
                       <!-- <img
                         class="md:max-lg:flex frame-child12"
                         loading="lazy"
@@ -79,35 +113,31 @@
                         src="./public/group-4212@2x.png"
                       /> -->
 
-                      <div class="frame-parent37">
-                        <div class="parent2">
-                          <b class="b6">50+</b>
-                          <div class="projets-termins2">Projets terminés</div>
+                      <div class="frame-parent37 mt-10">
+                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                          <dt class="text-base leading-7 text-[#4B4182]">Projets terminés</dt>
+                          <dd class="order-first text-3xl font-semibold tracking-tight text-[#4B4182] sm:text-5xl">50+</dd>
                         </div>
-                        <div class="parent3">
-                          <b class="b7">30+</b>
-                          <div class="equipes-de-terrain2">
-                            Equipes de terrain
-                          </div>
+                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                          <dt class="text-base leading-7 text-[#4B4182]">Equipes de terrain</dt>
+                          <dd class="order-first text-3xl font-semibold tracking-tight text-[#4B4182] sm:text-5xl">30+</dd>
                         </div>
-                        <div class="parent4">
-                          <b class="b8">25+</b>
-                          <div class="annes-dexprience2">
-                            Années d’expérience
-                          </div>
+                        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                          <dt class="text-base leading-7 text-[#4B4182]">Années d’expérience </dt>
+                          <dd class="order-first text-3xl font-semibold tracking-tight text-[#4B4182] sm:text-5xl">25+</dd>
                         </div>
                       </div>
                     </div>
                   </div>
-                 
+
                 </div>
-               
+
               </div>
 
-              
+
             </div>
 
-            <div class=" w-100 flex flex-col justify-start items-start mx-8 rounded-[40px] bg-[#D1DBED] overflow-hidden p-16 box-border gap-[24px] text-[52px] text-[#2A8181]">
+            <div class=" w-100 flex flex-col justify-center items-start mx-8 rounded-[40px] bg-[#D1DBED] overflow-hidden p-16 box-border gap-[24px] text-[52px] text-[#2A8181]">
               <h2 class="w-[18] relative leading-[1] ml-6 font-bold inline-block max-w-[100] ">
                 Une passion pour construire.
               </h2>
@@ -157,7 +187,7 @@
                     alt=""
                     src="./public/group-4221@2x.png"
                   />
-            
+
                   <img
                     class="frame-child14"
                     loading="lazy"
@@ -171,13 +201,13 @@
                     alt=""
                     src="./public/group-423-1@2x.png"
                   />
-            
+
                   <img
                     class="frame-child16"
                     alt=""
                     src="./public/group-422-1@2x.png"
                   />
-            
+
                   <div class="construction-dcoles-container">
                     <h2 class="construction-dcoles2">
                       Construction d’universités.
@@ -521,7 +551,7 @@
         </div>
         <footer class="string-manipulator">
           <div class="string-manipulator-child"></div>
-      
+
 
           <div class="data-sieve-parent">
             <div class="data-sieve">
@@ -600,7 +630,7 @@
                   alt=""
                   src="./public/icbaselinefacebook.svg"
                 />
-                
+
                 <img
                 class="mditwitter-icon2"
                 loading="lazy"
